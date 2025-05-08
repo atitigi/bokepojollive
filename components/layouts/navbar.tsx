@@ -145,6 +145,7 @@ const Navbar = async () => {
                 </Link>
             </div>
             <div className="flex flex-row space-x-2">
+                
                 <SearchInput className="hidden md:block w-full md:w-[260px] lg:w-[300px]" />
                 <SearchDialog></SearchDialog>
             </div>
